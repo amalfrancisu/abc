@@ -6,6 +6,7 @@
 
 if ( ! defined( 'ABSPATH' ) ) {
     exit;
-} // Exit if accessed directly
+    
+} // Exit if accessed directly fsf
 
 get_template_part( 'albums-list' );
